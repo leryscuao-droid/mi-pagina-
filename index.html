@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moonkiss Scan — Plantilla</title>
+  <meta name="description" content="Plantilla de sitio de catálogo inspirada en una interfaz de scanlation.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="brand-banner">
+      <!-- Reemplaza este bloque por tu logo/banner cuando tengas la imagen -->
+      <div class="banner-placeholder">
+        <span class="moon">☾</span>
+        <div>
+          <div class="brand-script">Moonkiss</div>
+          <div class="brand-subtitle">SCAN</div>
+          <small>TRADUCCIONES EN PDF</small>
+        </div>
+        <div class="banner-tagline">Historias que<br>nos hacen soñar...</div>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#inicio" class="nav-item active">⌂ <span>Inicio</span></a>
+      <a href="#series" class="nav-item">▦ <span>Series</span></a>
+      <a href="#generos" class="nav-item">♡ <span>Géneros</span></a>
+      <a href="#emision" class="nav-item">◧ <span>En emisión</span></a>
+      <a href="#finalizadas" class="nav-item">◉ <span>Finalizadas</span></a>
+      <a href="#proximamente" class="nav-item">◉ <span>Próximamente</span></a>
+      <a href="#buscar" class="nav-item search-nav">⌕ <span>Buscar</span></a>
+      <div class="nav-socials">
+        <a href="#" aria-label="Telegram">◈</a>
+        <a href="#" aria-label="Discord">◈</a>
+        <a href="#" aria-label="WhatsApp">◈</a>
+        <button id="themeToggle" aria-label="Cambiar tema">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio" class="page-wrap">
+
+    <!-- ================= CONTENIDO PRINCIPAL ================= -->
+    <section class="content-grid">
+
+      <div class="main-column">
+
+        <!-- HERO / CARRUSEL -->
+        <section class="hero-card">
+          <button class="hero-arrow prev" aria-label="Anterior">‹</button>
+
+          <div class="hero-placeholder">
+            <div class="hero-placeholder-art">IMAGEN<br>PRINCIPAL</div>
+            <div class="hero-copy">
+              <span class="badge">EN EMISIÓN</span>
+              <h1>Baby Omega</h1>
+              <div class="chapter">Capítulo 41</div>
+              <p>El pequeño protagonista sigue demostrando que el amor también se vive en silencio. ¿Podrá al fin resistirse más tiempo?</p>
+              <a href="#series" class="primary-button">Ver más →</a>
+            </div>
+          </div>
+
+          <button class="hero-arrow next" aria-label="Siguiente">›</button>
+          <div class="slider-dots" aria-hidden="true">
+            <span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+        </section>
+
+        <!-- NUEVOS PROYECTOS -->
+        <section id="series" class="section-block">
+          <div class="section-heading">
+            <h2>★ &nbsp;Nuevos proyectos</h2>
+            <a href="#">Ver todos →</a>
+          </div>
+          <div class="cards-row">
+            <article class="series-card">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Baby Omega</h3><span class="status">En emisión</span>
+            </article>
+            <article class="series-card">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Tanhua</h3><span class="status">En emisión</span>
+            </article>
+            <article class="series-card">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Nombrame S2</h3><span class="status">En emisión</span>
+            </article>
+            <article class="series-card">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Pitter Patter</h3><span class="status">En emisión</span>
+            </article>
+            <article class="series-card">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Law of Attraction</h3><span class="status">En emisión</span>
+            </article>
+          </div>
+        </section>
+
+        <!-- EN EMISIÓN -->
+        <section id="emision" class="section-block">
+          <div class="section-heading">
+            <h2>♨ &nbsp;Series en emisión</h2>
+            <a href="#">Ver todas →</a>
+          </div>
+          <div class="cards-row six">
+            <article class="series-card compact">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Baby Omega</h3><small>Cap. 41</small>
+            </article>
+            <article class="series-card compact">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Tanhua</h3><small>Cap. 92</small>
+            </article>
+            <article class="series-card compact">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Nombrame S2</h3><small>Cap. 18</small>
+            </article>
+            <article class="series-card compact">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Pitter Patter</h3><small>Cap. 16</small>
+            </article>
+            <article class="series-card compact">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Law of Attraction</h3><small>Cap. 12</small>
+            </article>
+            <article class="series-card compact">
+              <div class="image-placeholder"><span>PORTADA</span></div>
+              <h3>Mi Demonio Insaciable</h3><small>Cap. 8</small>
+            </article>
+          </div>
+        </section>
+
+        <!-- SECCIONES ADICIONALES PARA MANTENER LA ESTRUCTURA -->
+        <section id="finalizadas" class="section-block extra-section">
+          <div class="section-heading">
+            <h2>✓ &nbsp;Series finalizadas</h2>
+            <a href="#">Ver todas →</a>
+          </div>
+          <div class="empty-panel">Aquí aparecerán las series finalizadas.</div>
+        </section>
+
+        <section id="proximamente" class="section-block extra-section">
+          <div class="section-heading">
+            <h2>◌ &nbsp;Próximamente</h2>
+            <a href="#">Ver todas →</a>
+          </div>
+          <div class="empty-panel">Aquí aparecerán los próximos proyectos.</div>
+        </section>
+
+      </div>
+
+      <!-- ================= SIDEBAR ================= -->
+      <aside class="sidebar">
+
+        <section id="buscar" class="side-box search-box">
+          <label for="searchInput" class="sr-only">Buscar una serie</label>
+          <div class="search-field">
+            <input id="searchInput" type="search" placeholder="Buscar una serie...">
+            <span>⌕</span>
+          </div>
+        </section>
+
+        <section id="generos" class="side-box">
+          <h2>★ &nbsp;Géneros</h2>
+          <div class="genre-list">
+            <button>BL</button><button>Omegaverse</button><button>Romance</button>
+            <button>Drama</button><button>Comedia</button><button>Fantasía</button>
+            <button>Misterio</button><button>Moderno</button><button>Histórico</button>
+            <button>Otros</button>
+          </div>
+        </section>
+
+        <section class="side-box updates">
+          <h2>▣ &nbsp;Últimas actualizaciones</h2>
+          <a class="update-item" href="#">
+            <div class="mini-placeholder">IMG</div>
+            <div><strong>Baby Omega</strong><span>Capítulo 41</span><small>Hace 2 horas</small></div>
+            <b>›</b>
+          </a>
+          <a class="update-item" href="#">
+            <div class="mini-placeholder">IMG</div>
+            <div><strong>Tanhua</strong><span>Capítulo 92</span><small>Hace 5 horas</small></div>
+            <b>›</b>
+          </a>
+          <a class="update-item" href="#">
+            <div class="mini-placeholder">IMG</div>
+            <div><strong>Nombrame (S2)</strong><span>Capítulo 18</span><small>Hace 7 horas</small></div>
+            <b>›</b>
+          </a>
+          <a class="update-item" href="#">
+            <div class="mini-placeholder">IMG</div>
+            <div><strong>Pitter Patter</strong><span>Capítulo 16</span><small>Hace 10 horas</small></div>
+            <b>›</b>
+          </a>
+        </section>
+
+        <section class="support-box">
+          <div class="support-art">☾ ✦</div>
+          <h2>Apoya al autor</h2>
+          <p>Si te gusta nuestro trabajo,<br>por favor apoya al autor<br>leyendo en la plataforma oficial.</p>
+        </section>
+
+        <section class="side-box downloads">
+          <h2>⇩ &nbsp;Descargas</h2>
+          <a href="#"><span class="file-icon">⇩</span><div><strong>Leer en línea</strong><small>(en el blog)</small></div><b>›</b></a>
+          <a href="#"><span class="file-icon">PDF</span><div><strong>Descargar PDF</strong><small>(enlace externo)</small></div><b>›</b></a>
+          <a href="#"><span class="file-icon">ZIP</span><div><strong>Descargar ZIP</strong><small>(enlace externo)</small></div><b>›</b></a>
+        </section>
+
+      </aside>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-decoration">☾ ✦</div>
+    <div class="footer-brand">Moonkiss Scan</div>
+    <div class="footer-links">
+      <a href="#">No resubir</a>
+      <a href="#">Apoya al autor</a>
+      <a href="#">Versión Moonkiss sin censura</a>
+    </div>
+    <div class="footer-socials">◈ &nbsp; ◈ &nbsp; ◈ &nbsp; ♡</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
